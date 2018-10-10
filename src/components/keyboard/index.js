@@ -94,7 +94,7 @@ export default class Keyboard extends React.Component {
           size="s1"
           top={90}
           left={284}
-          label={i18n.left[lan]}
+          label={''}
           arrow="translate(60px, -12px) rotate(270deg)"
           active={keyboard.get('left')}
           ref={(c) => { this.dom_left = c; }}
@@ -104,7 +104,7 @@ export default class Keyboard extends React.Component {
           size="s1"
           top={90}
           left={464}
-          label={i18n.right[lan]}
+          label={''}
           arrow="translate(-60px, -12px) rotate(90deg)"
           active={keyboard.get('right')}
           ref={(c) => { this.dom_right = c; }}
